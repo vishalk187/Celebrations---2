@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrations | Fine Dining Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="home">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Celebrations</h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="btn-reservation">Reservations</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">A Culinary Journey</h1>
+                <p class="hero-subtitle">Every meal is a celebration</p>
+                <a href="#menu" class="btn-primary">Explore Menu</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Section -->
+    <section class="featured">
+        <div class="container">
+            <div class="featured-content">
+                <h2 class="section-title">Signature Dishes</h2>
+                <div class="featured-grid">
+                    <div class="featured-item">
+                        <div class="featured-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Farm to Table</h3>
+                        <p>We source only the freshest ingredients from local farmers.</p>
+                    </div>
+                    <div class="featured-item">
+                        <div class="featured-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Exquisite Flavors</h3>
+                        <p>Our chefs combine international techniques with local tastes.</p>
+                    </div>
+                    <div class="featured-item">
+                        <div class="featured-icon">
+                            <i class="fas fa-wine-glass-alt"></i>
+                        </div>
+                        <h3>Fine Wine Selection</h3>
+                        <p>Expertly curated wine list to complement your meal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>Founded in 2010, Celebrations began with a simple vision: to create an extraordinary dining experience that celebrates life's most precious moments.</p>
+                    <p>Our culinary team, led by acclaimed Chef Michael Roberts, has crafted a menu that fuses traditional techniques with modern innovation, all while honoring the finest seasonal ingredients.</p>
+                    <p>We believe in the power of food to bring people together, to create memories, and to transform an ordinary day into something special.</p>
+                    <a href="#" class="btn-secondary">Learn More</a>
+                </div>
+                <div class="about-image parallax-container">
+                    <div class="about-image-inner"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Crafted with passion and precision</p>
+            
+            <div class="menu-tabs-container">
+                <div class="menu-tabs">
+                    <button class="menu-tab active" data-target="starters">Starters</button>
+                    <button class="menu-tab" data-target="tandoori">Tandoori</button>
+                    <button class="menu-tab" data-target="main-course">Main Course</button>
+                    <button class="menu-tab" data-target="biryani">Biryani</button>
+                    <button class="menu-tab" data-target="beverages">Beverages</button>
+                </div>
+            </div>
+            
+            <div class="menu-content">
+                <!-- Starters Menu -->
+                <div class="menu-category active" id="starters">
+                    <h3 class="menu-category-title">Chinese & Continental Starters</h3>
+                    
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1626467961301-04b6afe28e51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Veg Manchurian">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Veg Manchurian (Wet)</h4>
+                                    <span class="menu-item-price">₹250</span>
+                                </div>
+                                <p class="menu-item-description">Deep-fried vegetable balls in a spicy, tangy manchurian sauce.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1592415499556-74fcb9dccba9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Crispy American Corn">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Crispy American Corn</h4>
+                                    <span class="menu-item-price">₹260</span>
+                                </div>
+                                <p class="menu-item-description">Crispy fried sweet corn tossed with special spices.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Singapore Chilly Chicken">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Singapore Chilly Chicken</h4>
+                                    <span class="menu-item-price">₹350</span>
+                                </div>
+                                <p class="menu-item-description">Tender chicken pieces in a spicy Singapore-style sauce.</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1600335895229-6e75511892c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Crispy Chicken">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Crispy Chicken Black Bean</h4>
+                                    <span class="menu-item-price">₹350</span>
+                                </div>
+                                <p class="menu-item-description">Crispy fried chicken tossed in rich black bean sauce.</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1036&q=80" alt="Cheese Balls">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Cheese Balls</h4>
+                                    <span class="menu-item-price">₹340</span>
+                                </div>
+                                <p class="menu-item-description">Crispy fried cheese balls, perfect for sharing.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Main Course Menu -->
+                <div class="menu-category" id="main-course">
+                    <h3 class="menu-category-title">Indian Delicacies</h3>
+                    
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1036&q=80" alt="Paneer Butter Masala">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Paneer Butter Masala</h4>
+                                    <span class="menu-item-price">₹280</span>
+                                </div>
+                                <p class="menu-item-description">Cottage cheese cubes in a rich, creamy tomato butter sauce.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1626132647523-66d3e36cc7ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Dal Tadka">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Dal Tadka</h4>
+                                    <span class="menu-item-price">₹240</span>
+                                </div>
+                                <p class="menu-item-description">Yellow lentils tempered with cumin, garlic and spices.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Butter Chicken">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Butter Chicken</h4>
+                                    <span class="menu-item-price">₹360</span>
+                                </div>
+                                <p class="menu-item-description">Tender chicken in a creamy tomato and butter sauce.</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1604908176997-125f7c9b0031?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1013&q=80" alt="Mutton Rogan Josh">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Mutton Rogan Josh</h4>
+                                    <span class="menu-item-price">₹420</span>
+                                </div>
+                                <p class="menu-item-description">Tender mutton in aromatic Kashmiri spices and yogurt gravy.</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1632401853085-0a26deaa5d95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Kadai Prawn">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Kadai Prawn</h4>
+                                    <span class="menu-item-price">₹360</span>
+                                </div>
+                                <p class="menu-item-description">Prawns cooked with bell peppers in a spicy kadai masala.</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tandoori Menu -->
+                <div class="menu-category" id="tandoori">
+                    <h3 class="menu-category-title">Tandoori Specialties</h3>
+                    
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Tandoori Mushroom">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Tandoori Mushroom</h4>
+                                    <span class="menu-item-price">₹300</span>
+                                </div>
+                                <p class="menu-item-description">Marinated mushrooms grilled in a tandoor.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1036&q=80" alt="Paneer Tikka">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Paneer Tikka</h4>
+                                    <span class="menu-item-price">₹320</span>
+                                </div>
+                                <p class="menu-item-description">Marinated cottage cheese cubes grilled to perfection.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Tandoori Chicken">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Tandoori Chicken</h4>
+                                    <span class="menu-item-price">₹320/₹560</span>
+                                </div>
+                                <p class="menu-item-description">Classic tandoori marinated chicken (half/full).</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Reshmi Kebab">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Reshmi Kebab</h4>
+                                    <span class="menu-item-price">₹380</span>
+                                </div>
+                                <p class="menu-item-description">Succulent chicken kebabs in a creamy marinade.</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1582169505937-b9992bd01ed9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Fish Tikka">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Fish Tikka</h4>
+                                    <span class="menu-item-price">₹410</span>
+                                </div>
+                                <p class="menu-item-description">Marinated fish pieces grilled in tandoor.</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Biryani Menu -->
+                <div class="menu-category" id="biryani">
+                    <h3 class="menu-category-title">Biryani Selection</h3>
+                    
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Veg Biryani">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Veg Biryani</h4>
+                                    <span class="menu-item-price">₹230</span>
+                                </div>
+                                <p class="menu-item-description">Fragrant rice cooked with mixed vegetables and spices.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1630851840633-f96999247032?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Egg Biryani">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Egg Biryani</h4>
+                                    <span class="menu-item-price">₹250</span>
+                                </div>
+                                <p class="menu-item-description">Aromatic rice with boiled eggs and special spices.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Egg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Chicken Dum Biryani">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Chicken Dum Biryani</h4>
+                                    <span class="menu-item-price">₹280</span>
+                                </div>
+                                <p class="menu-item-description">Layered rice and chicken cooked on dum with aromatic spices.</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1642821373181-696a54913e93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Chicken Mughlai Biryani">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Chicken Mughlai Biryani</h4>
+                                    <span class="menu-item-price">₹350</span>
+                                </div>
+                                <p class="menu-item-description">Rich and royal biryani with chicken in Mughlai style.</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1633945239199-80c7fd2d8a60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Mutton Biryani">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Mutton Biryani</h4>
+                                    <span class="menu-item-price">₹390</span>
+                                </div>
+                                <p class="menu-item-description">Traditional biryani with tender pieces of mutton.</p>
+                            </div>
+                            <span class="menu-highlight">Non-Veg</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Beverages Menu -->
+                <div class="menu-category" id="beverages">
+                    <h3 class="menu-category-title">Beverages & Desserts</h3>
+                    
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1594488506255-a8bbfdeedbae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Vanilla Milkshake">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Vanilla Milkshake</h4>
+                                    <span class="menu-item-price">₹120</span>
+                                </div>
+                                <p class="menu-item-description">Creamy vanilla milkshake topped with whipped cream.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1036&q=80" alt="Chocolate Milkshake">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Chocolate Milkshake</h4>
+                                    <span class="menu-item-price">₹140</span>
+                                </div>
+                                <p class="menu-item-description">Rich chocolate milkshake, perfect for chocolate lovers.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Virgin Mojito">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Virgin Mojito Mocktail</h4>
+                                    <span class="menu-item-price">₹130</span>
+                                </div>
+                                <p class="menu-item-description">Refreshing lime, mint, and soda mocktail.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1638176066757-b9f58d6cbe65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80" alt="Blue Curacao Mocktail">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Blue Curacao Mocktail</h4>
+                                    <span class="menu-item-price">₹130</span>
+                                </div>
+                                <p class="menu-item-description">Bright blue mocktail with a citrus flavor profile.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                        
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1497534446932-c925b458314e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1072&q=80" alt="Green Apple Mocktail">
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h4 class="menu-item-title">Green Apple Mocktail</h4>
+                                    <span class="menu-item-price">₹130</span>
+                                </div>
+                                <p class="menu-item-description">Sweet and tart green apple flavored mocktail.</p>
+                            </div>
+                            <span class="menu-highlight menu-veg">Veg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Gallery</h2>
+            <p class="section-subtitle">A glimpse into our culinary world</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image img-1"></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image img-2"></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image img-3"></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image img-4"></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image img-5"></div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image img-6"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Guests Say</h2>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"An unforgettable dining experience. The vegetarian menu surprised and delighted me with its depth of flavor."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <p class="author-name">Emily Johnson</p>
+                            <p class="author-title">Food Critic</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"The attention to detail at Celebrations is exceptional. From the ambiance to the plating, everything tells a story."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <p class="author-name">Robert Chen</p>
+                            <p class="author-title">Regular Guest</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"We chose Celebrations for our anniversary dinner and were blown away. The non-vegetarian tasting menu was a culinary journey."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <p class="author-name">Sarah & James Williams</p>
+                            <p class="author-title">Celebrating Guests</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-controls">
+                    <button class="testimonial-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots">
+                        <span class="testimonial-dot active" data-index="0"></span>
+                        <span class="testimonial-dot" data-index="1"></span>
+                        <span class="testimonial-dot" data-index="2"></span>
+                    </div>
+                    <button class="testimonial-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>45-56-1/5, S.no.223/1c, GSP complex</p>
+                            <p>Narasimhanagar, Akkayapalem</p>
+                            <p>Visakhapatnam, Andhra Pradesh 530024</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Hours</h3>
+                            <p>Monday - Sunday: 11:00 AM - 11:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Reservations</h3>
+                            <p>Phone: 063047 81922</p>
+                            <p>Email: reservations@celebrations.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30462.92403853118!2d83.31630185742924!3d17.745191238205363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9c20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1713392892657!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for exclusive offers and updates</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Celebrations</h2>
+                    <p>A culinary journey of excellence</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Policies</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cancellation Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Connect With Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Celebrations. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
